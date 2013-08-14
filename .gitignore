@@ -1,3 +1,4 @@
 node_modules
 .idea
-libc/build
+build
+npm-debug.log

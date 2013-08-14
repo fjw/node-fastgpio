@@ -1,6 +1,6 @@
 {
   "name": "fastgpio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a nodejs gpio library for the raspberry pi using the fastest way to export values",
   "main": "build/Release/fastgpio.node",
   "scripts": {

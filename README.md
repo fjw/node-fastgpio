@@ -5,33 +5,29 @@ This is a small **node.js** GPIO library for the **Raspberry Pi** using the fast
 
 ## Installation
 
-Clone the repository after that use
 ```sh
-$ chmod +x configure.sh
-$ ./configure.sh
+npm install fastgpio
 ```
-to install node-gyp and build the library.
-
 
 In your node.js file just require the library:
 ```js
-var gpioexport = require( __dirname + "/libc/build/Release/gpioexport" );
+var fastgpio = require( "fastgpio" );
 ```
 
 Now you can prepare your GPIO for output using:
 ```js
-gpioexport.prepareGPIO(18);
+fastgpio.prepareGPIO(18);
 ```
 
 After that you can set your GPIO to HIGH (turn on) anytime with:
 ```js
-gpioexport.set(18);
+fastgpio.set(18);
 ```
 
 Or you can set your GPIO to LOW (turn off) anytime with:
 ```js
-gpioexport.unset(18);
+fastgpio.unset(18);
 ```
 
-The library only supports GPIOs as output. But in the fastest possible way from node.js.
-It uses the standard Raspberry Pi GPIO numbers.
+The library only supports GPIOs as output, but in the fastest possible way from node.js.
+**It uses the standard Raspberry Pi GPIO numbers.**
