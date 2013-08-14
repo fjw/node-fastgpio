@@ -3,11 +3,12 @@ node-fast-gpio
 
 This is a small **node.js** GPIO library for the **Raspberry Pi** using the fastest way to export values via C (http://codeandlife.com/2012/07/03/benchmarking-raspberry-pi-gpio-speed/).
 
-## Installation
+
+Installation:
 
 ```sh
 npm install fastgpio
-```
+``
 
 In your node.js file just require the library:
 ```js
