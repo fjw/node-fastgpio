@@ -8,7 +8,7 @@ Installation:
 
 ```sh
 npm install fastgpio
-``
+```
 
 In your node.js file just require the library:
 ```js
