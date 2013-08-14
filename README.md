@@ -30,5 +30,8 @@ Or you can set your GPIO to LOW (turn off) anytime with:
 fastgpio.unset(18);
 ```
 
+*Remember:* You must run your application as 'root', to access the gpio memory areas!
+
+
 The library only supports GPIOs as output, but in the fastest possible way from node.js.
 **It uses the standard Raspberry Pi GPIO numbers.**
