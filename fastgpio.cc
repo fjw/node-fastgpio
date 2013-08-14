@@ -162,4 +162,4 @@ void setup_io()
 
 }
 
-NODE_MODULE(gpioexport, init)
+NODE_MODULE(fastgpio, init)

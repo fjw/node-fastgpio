@@ -1,0 +1,28 @@
+{
+  "name": "fastgpio",
+  "version": "0.0.1",
+  "description": "a nodejs gpio library for the raspberry pi using the fastest way to export values",
+  "main": "build/Release/fastgpio.node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "homepage": "https://github.com/fjw/node-fast-gpio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fjw/node-fast-gpio.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "raspberry",
+    "pi",
+    "raspberry",
+    "gpio"
+  ],
+  "author": "Frédéric Worm",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "b8c1dd0c99233afe23ebd06bfec5eca7b1057977",
+  "gypfile": true
+}
