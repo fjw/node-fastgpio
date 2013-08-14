@@ -1,7 +1,7 @@
 node-fast-gpio
 ==============
 
-This is a node.js gpio library for the raspberry pi using the fastest way to export values via C (http://codeandlife.com/2012/07/03/benchmarking-raspberry-pi-gpio-speed/).
+This is a small **node.js** GPIO library for the **Raspberry Pi** using the fastest way to export values via C (http://codeandlife.com/2012/07/03/benchmarking-raspberry-pi-gpio-speed/).
 
 ## Installation
 
@@ -34,4 +34,4 @@ gpioexport.unset(18);
 ```
 
 The library only supports GPIOs as output. But in the fastest possible way from node.js.
-It uses the standard GPIO numbers.
+It uses the standard Raspberry Pi GPIO numbers.
