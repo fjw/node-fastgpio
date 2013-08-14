@@ -7,10 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "node-gyp rebuild"
   },
-  "homepage": "https://github.com/fjw/node-fast-gpio",
+  "homepage": "https://github.com/fjw/node-fastgpio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fjw/node-fast-gpio.git"
+    "url": "https://github.com/fjw/node-fastgpio.git"
   },
   "keywords": [
     "node",
